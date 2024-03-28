@@ -1,0 +1,166 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+
+}
+.logo {
+    height: 80px;
+}
+
+.text_header{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 23px;
+    color: darkorchid;
+}
+.text_mobile{
+    font-size: 24px;
+    font-weight: 500;
+    color: darkorchid;
+
+}
+
+
+
+.phone_header{
+    color: darkorchid;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.phone_header:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.text_header:hover {
+    color: rgb(86, 27, 141);
+    font-weight: bold;
+}
+
+.text_fond{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    padding: 10px;
+
+    color:rgb(162, 26, 162);
+}
+
+@media (max-width: 576px) { /* Для мобільних екранів */
+    .text_fond {
+      font-size: 48px; /* Зменшений розмір шрифту */
+    }
+  }
+
+.card-body {
+    min-height: 235px;
+}
+
+.props {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+.text {
+    color: #ffffffc8;
+}
+.blok_payment {
+    background-color: rgb(123, 12, 123);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text_payment {
+    background-color: #fff;
+    border-color: blueviolet; 
+    border-radius: 5px; 
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+@media (max-width: 576px) { /* Для мобільних екранів */
+    .text_payment {
+      margin-bottom: 25px;
+      padding: 0;
+    }
+    .text_pay{
+        padding-left: 10px;
+    }
+  }
+
+.text_pay {
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+
+.auctions {
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.btn-violet{
+    background-color: blueviolet;
+    color: #fff; 
+    border-color: blueviolet; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+}
+.btn-violet:hover{
+    background-color: #fff;
+    color: blueviolet; 
+    border-color: blueviolet; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+}
+
+.btn-violet_bank{
+    background-color: blueviolet;
+    color: #fff; 
+    border-color: blueviolet; 
+    border-radius: 5px; 
+    padding: 20px 50px; 
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+   
+}
+.btn-violet_bank:hover{
+    border-color: blueviolet; 
+    color: blueviolet; 
+    border-radius: 5px; 
+    background-color: #fff;
+}
+
+.btn-violet_copy{
+    background-color: blueviolet;
+    color: #fff; 
+    border-color: blueviolet; 
+    border-radius: 5px; 
+    padding: 12px 40px; 
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+
+}
+.btn-violet_copy:hover{
+    border-color: blueviolet; 
+    color: blueviolet; 
+    border-radius: 5px; 
+    background-color: #fff;
+}
